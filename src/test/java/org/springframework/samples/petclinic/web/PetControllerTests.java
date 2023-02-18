@@ -24,7 +24,7 @@ import org.springframework.test.web.servlet.setup.MockMvcBuilders;
  * @author Colin But
  */
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration({"classpath:spring/business-config.xml", "classpath:spring/tools-config.xml", "classpath:spring/mvc-core-config.xml"})
+@ContextConfiguration({"classpath:spring/business-config.xml", "classpath:spring/tools-config.xml", "classpath:spring/mvc-core-config.xml", "classpath*:spring/applicationContext.xml", "classpath*:spring/applicationContext-jpa.xml", "classpath*:spring/applicationContext-security.xml"})
 @WebAppConfiguration
 @ActiveProfiles("spring-data-jpa")
 public class PetControllerTests {

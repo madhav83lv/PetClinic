@@ -34,6 +34,9 @@
 
         <!-- Others -->
         <mysql-driver.version>5.1.36</mysql-driver.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
 
         <!-- Web dependencies -->
         <dandelion.version>1.1.1</dandelion.version>
